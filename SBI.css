@@ -1,0 +1,246 @@
+@font-face {
+    font-family: poppins-light;
+    src: url(./Poppins-Light.ttf);
+}
+body{
+    font-family: poppins-light;
+}
+*{
+   padding:0;
+   margin:0;
+}
+.container{
+    width:1200px;
+    height:205%;
+    background-color: aliceblue;
+    margin-top: 15px;
+    border: 2px solid #e4e4e4;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    scale: 90%;
+    justify-content: center;
+    margin-top: 0px;
+}
+.header{
+   display:flex;
+   position:relative;
+   top:10px;
+   left:0;
+   width:100%;
+   height:35px;
+   justify-content: space-between;
+   padding:0px;
+   color: black;
+   background-color:whitesmoke;
+   padding-top:10px;
+}
+ul{
+    list-style-type: none;
+}
+.head-items{
+    display:flex;
+    align-items:center;
+    font-size: 12px;
+    padding-top: 10px;
+    float:right;
+}
+.head-items li{
+    margin:0 8px;
+    border-right: 1px solid gray;
+    margin-top: 0;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif; 
+    justify-content:;
+}
+li:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
+li,a:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
+select{
+    background-color:#106c5c;
+    height:33px;
+    width:90px;
+    color: yellow;
+} 
+ .navbar{
+    display: flex;
+    position:relative;
+    margin-top:30px;
+    width:100%;
+    height:40px;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-bottom:20px;
+    background-color:#2074bc ;
+}
+.nav{
+    display: flex;
+    margin-left: 60px;
+}
+.nav li{
+    padding:9px 25px;
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 500;
+   float: left;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav li:hover{
+   background-color:  #14ace0;
+}
+.middle{
+    width:100%;
+    height:200px;
+    background-image: url("image.png");
+   margin-top: 10px;
+   padding-top: 20px;
+  background-size: cover;
+}
+.middle,.middle_text{
+    margin-right: 19px;
+    margin-top: 19px;
+}
+#btn{
+    background-color:#14ace0;
+    color: white;
+    font-size: 17px;
+    float: right;
+    font-weight: 600;
+    height:45px; 
+    border: none;
+    width:200px;
+}
+#text{
+    float:right;
+    color:#064d8a;
+    font-weight: 500;
+    padding-top: 22px;
+    padding-left: 70%;
+}
+.last_text{
+    padding-top: 120px;
+    padding-left: 120px;
+}
+.last_text a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#062e50;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row-reverse;
+}
+.last_text a:hover{
+    color: #2074bc;
+}
+.condition{
+    height:40px;
+    width:100%;
+    background-color:rgb(229, 241, 245);
+    font-size: 15px;
+    color: #022442;
+    margin-top: 16px;
+    padding-top: 9px;
+    border: 1px solid gray;
+}
+.condition p{
+    padding-left: 9px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+  }
+  .box1{
+    background-color: #fffefe;
+    height:120px;
+    width:250px;
+    border: 1px solid #e5e5e5;
+    color: rgb(61, 60, 60);
+    padding-right: 10px;
+    justify-content:space-evenly;
+  }
+  .text_1{
+    padding-left: 40px;
+    font-size: 14px;
+  }
+  .a,.a1{
+    display: flex;
+  }
+  .n,.n1{
+    display: flex;
+  }
+ .a,.n,.a1,.n1{
+    width:100%;
+    height: 50px;
+    text-align: center;
+   background-color: #eeeded;
+  }
+  .a1{
+    color:green;
+    font-weight: 600;
+  }
+  .n1{
+    color: red;
+    font-weight: 600;
+    text-align: center;
+  }
+  .box1 img{
+    padding-left: 3px;
+  }
+  
+ .head{
+    color: #1a71b5;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 600;
+}
+.para_1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.para_1 .para_2{
+    width:50%;
+    justify-content: space-around;
+    margin:10px 50px;
+    padding: 5px 5px;
+}
+.para_2 p{
+    color:rgb(130, 128, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    padding-bottom:2px;
+    text-decoration:none;
+    display:flex;
+    flex-direction: start;
+}
+.para_2 h5{
+    padding: 7px 5px;
+    margin: 10px 0;
+    background-color: #c7c0c0;
+    height:33px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.end{
+    padding: 2px 10px;
+    background-color: #414141;
+}
+.end_1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #535353;
+    color: #e9f0f6;
+    padding: 2px 30px;
+    font-size: 12px;
+}
+  
+ 
