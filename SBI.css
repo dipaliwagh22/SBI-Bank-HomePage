@@ -243,5 +243,9 @@ select{
     padding: 2px 30px;
     font-size: 12px;
 }
-  
+  @media screen {
+    .box{
+        
+    }
+  }
  
