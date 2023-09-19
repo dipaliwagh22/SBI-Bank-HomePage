@@ -10,13 +10,12 @@ body{
    margin:0;
 }
 .container{
-    width:1200px;
-    height:205%;
+    width:fit-content;
+    height:100%;
     background-color: aliceblue;
     margin-top: 15px;
     border: 2px solid #e4e4e4;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    scale: 90%;
     justify-content: center;
     margin-top: 0px;
 }
@@ -243,9 +242,23 @@ select{
     padding: 2px 30px;
     font-size: 12px;
 }
-  @media screen {
+  @media screen and (max-width:700px){
     .box{
-        
+        display: inherit;
     }
+    .box1{
+        margin-left: 30%;
+    }
+    .para_1{
+        display: inherit;
+        margin-left: 20%;
+    }
+    .container{
+        margin-left: 15%;
+    }
+    .nav li{
+        font-size:10px;
+    }
+    
   }
  
